@@ -14,6 +14,7 @@ public class PlayWright {
                 Page page = browser.newPage();
                 page.navigate("http://whatsmyuseragent.org/");
                 page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get("example.png")));
+
             }
         }
     }
