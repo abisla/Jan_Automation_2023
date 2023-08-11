@@ -16,6 +16,21 @@ public class T2_Multiple_Conditions {
             System.out.println("a & b is equal to c");
         }//end of multiple conditions
 
+        int d = 7;
+        int e = 8;
+        int f = 9;
+
+        if(d+e > f) {
+            System.out.println("d & e is greater than f");
+        } else if (d + e < f) {
+            System.out.println("d & e is less than f");
+        } else if (d + e == f) {
+            System.out.println("d and e is equal to f");
+        }
+
+
+
+
     }//end of main
 }//end of class
 

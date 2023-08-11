@@ -5,7 +5,6 @@ import Reusable_Methods.ReusableMethods_Logger;
 import com.relevantcodes.extentreports.LogStatus;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.asserts.Assertion;
 
 public class T2_GoogleSearchLogger extends ReusableAnnotations {
     @Test(priority = 1)

@@ -2,11 +2,7 @@ package Day12_040223;
 
 import Reusable_Methods.ReusableAnnotations;
 import Reusable_Methods.ReusableMethods;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
-
-import java.util.ArrayList;
 
 public class T4_ActionItem extends ReusableAnnotations {
 

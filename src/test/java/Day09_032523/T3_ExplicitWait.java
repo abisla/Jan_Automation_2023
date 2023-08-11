@@ -9,6 +9,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
 
 import java.util.concurrent.TimeUnit;
 
@@ -29,6 +31,16 @@ public class T3_ExplicitWait {
         //set maximized for mac users
         driver.manage().window().maximize();
 
+
+//        String pageTitle = driver.getTitle();
+//        //line 35 is type of hard assertion
+//        Assert.assertEquals(pageTitle,"www.google.com");
+//
+//        SoftAssert softAssert = new SoftAssert();
+//        //line 39 is a type of soft assertion
+//        softAssert.assertEquals(pageTitle,"www.google.com");
+//        System.out.println("I am soft assertion");
+//        softAssert.assertAll();
 
         //navigate to ups website
         driver.navigate().to("http://www.ups.com/us");

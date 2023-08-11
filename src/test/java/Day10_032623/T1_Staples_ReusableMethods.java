@@ -31,4 +31,11 @@ public class T1_Staples_ReusableMethods {
         System.out.println("My result is " + result);
 
     }//end of main
+    public static void addition(){
+
+    }
+     public void sum(){
+
+     }
+
 }//end of class

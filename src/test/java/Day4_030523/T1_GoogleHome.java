@@ -50,6 +50,13 @@ public class T1_GoogleHome {
         //close
         //driver.close();
 
+        WebDriverManager.chromedriver().setup();
+
+        WebDriver driver1 = new ChromeDriver();
+        driver1.navigate().to("https://www.google.com");
+        Thread.sleep(2000);
+        driver1.findElement(By.xpath("//*[@name = 'q'")).sendKeys("hi");
+        driver1.findElement(By.xpath("//*[@name='btnk'")).submit();
 
 }//end of main
 }//end of class

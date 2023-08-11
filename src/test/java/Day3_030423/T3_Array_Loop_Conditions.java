@@ -28,11 +28,23 @@ if(fruits.get(i) == "Apple") {
  */
 
 //using the OR operator
-            if(fruits.get(i) == "Apple" || fruits.get(i) == "Grape") {
+            if (fruits.get(i) == "Apple" || fruits.get(i) == "Grape") {
                 System.out.println("Fruit: " + fruits.get(i));
             }//end of conditions
 
 
-            }//end of loop
+        }//end of loop
+
+        ArrayList<String> berries = new ArrayList<>();
+        berries.add("blue");
+        berries.add("black");
+        berries.add("ras");
+        berries.add("peach");
+
+        for (int i = 0; i < berries.size(); i++) ;
+        {
+
+
         }//end of main
     }// end of class
+}

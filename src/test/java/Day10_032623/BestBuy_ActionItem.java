@@ -10,7 +10,7 @@ public class BestBuy_ActionItem {
 
         //set up driver
         WebDriver driver = ReusableMethods.defineChromeDriver();
-
+//        driver.manage().deleteAllCookies();
         //navigate to staples home page
         driver.navigate().to("https://www.bestbuy.com");
 

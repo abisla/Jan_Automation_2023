@@ -6,6 +6,41 @@ public class T2_ArrayList {
     public static void main(String[] args) {
 
     //create an ArrayList of countries
+        ArrayList<String> cities = new ArrayList<>();
+        cities.add("new york city");
+        cities.add("california");
+        cities.add("sacremento");
+        cities.add("philly");
+
+        //Get count of list
+        System.out.println("cities list:" + cities.size());
+        //print only new york and cali
+        System.out.println("cities are" + cities.get(0) + "," + cities.get(1)+"," + cities.get(2));
+
+        cities.add("minnesota");
+        //get the count
+        System.out.println("cities list:" + cities.size());
+        System.out.println(cities.get(4));
+
+        ArrayList<Integer> phoneNumbers = new ArrayList<>();
+        phoneNumbers.add(347);
+        phoneNumbers.add(346);
+        phoneNumbers.add(345);
+        phoneNumbers.add(344);
+
+        System.out.println("phone numbers list:" + phoneNumbers.size());
+        System.out.println("phone numbers are:" + phoneNumbers.get(0) + phoneNumbers.get(1)+phoneNumbers.get(2));
+
+
+
+
+
+
+
+
+
+
+
     ArrayList<String> countries = new ArrayList<>();
     countries.add("USA");
     countries.add("India");

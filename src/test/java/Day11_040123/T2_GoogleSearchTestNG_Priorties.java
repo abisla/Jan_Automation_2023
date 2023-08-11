@@ -1,5 +1,6 @@
 package Day11_040123;
 
+import Day10_032623.T1_Staples_ReusableMethods;
 import Reusable_Methods.ReusableMethods;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterSuite;
@@ -18,6 +19,9 @@ public class T2_GoogleSearchTestNG_Priorties {
     //@Test is a replacement of the main method to execute your code
     @Test (priority = 1)
     public void searchForBmw() {
+        T1_Staples_ReusableMethods.addition();
+        T1_Staples_ReusableMethods t1StaplesReusableMethods = new T1_Staples_ReusableMethods();
+        t1StaplesReusableMethods.sum();
         //navigate to google home
         driver.navigate().to("https://www.google.com");
         //enter bmw into search field

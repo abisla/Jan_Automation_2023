@@ -2,6 +2,7 @@ package Day12_040223;
 
 import Reusable_Methods.ReusableAnnotations;
 import Reusable_Methods.ReusableMethods;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 
@@ -23,6 +24,8 @@ public class T1_ReusableAnnotation_Yahoo extends ReusableAnnotations {
             String result = ReusableMethods.captureTextMethod(driver,"//span[@class=' fz-14 lh-22']","Search Results");
             String[] arrayResult = result.split(" ");
             System.out.println("Search Number for " + phones.get(i) + " is " + arrayResult[1]);
+           driver.switchTo().frame(i);
+           driver.switchTo().defaultContent();
         }//end of loop
     }//end of test 1
 
